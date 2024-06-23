@@ -1,5 +1,4 @@
 body {
-  display: block;
   text-align: center;
   height: 100vh;
   margin: 0;
@@ -23,7 +22,7 @@ p {
   margin: 0;
   color: #faf9f6;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
 }
 .top {
@@ -43,4 +42,10 @@ p {
 }
 .bottom p {
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
 }
