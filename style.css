@@ -46,6 +46,9 @@ p {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 3em;
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
   }
 }
