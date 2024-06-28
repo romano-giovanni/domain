@@ -8,8 +8,10 @@ function typeWriter(id, txt, i = 0) {
   }
 }
 
-typeWriter("title", "giovanni romano");
+setTimeout(() => {
+  typeWriter("title", "giovanni romano");
+}, 300);
 
 setTimeout(() => {
   typeWriter("paragraph", "full-stack developer");
-}, 700);
+}, 1050);
